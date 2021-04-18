@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding: 0;
+}
+header{
+   border-bottom: 1px solid rgb(202, 197, 197);
+   
+}
+
+.headerContent{
+   width: 90%;
+   margin-left: 5%;
+   overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{
+    width: 35%; 
+}
+nav{
+    width: 30%;
+    float:right;
+    padding-top: 12px;
+}
+nav ul{
+   list-style: none;
+   overflow: hidden;
+}
+nav ul li{
+
+    float: left;
+    margin-right:15px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.content{
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+}
+
+
+.heading h1{
+    text-align: center;
+    color: #008AFF;
+    font-size: 50px;
+}
+.heading h1:first-child{
+    color: #0F2656;
+    margin-top: 40px;
+
+}
+.heading p{
+    text-align: center;
+    color: rgb(107, 107, 107);
+    font-size: 18px;
+    margin-top: 30px;
+    
+    
+}
+.heading img{
+    width: 65%;
+}
+.mainContent{
+   overflow:hidden ;
+}
+.leftContent{
+ width: 45%;
+ float: left;
+ 
+}
+.leftContent h1{
+    text-align: right;
+    color: red;
+}
+.leftContent p{
+    text-align: right;
+    margin: 5px;
+    color: rgb(155, 155, 155);
+    font-size: 20px;}
+.rightContent{
+    width: 45%;
+    float:right ;
+  }
+.rightContent h1{
+    font-size: 40px;
+    text-align: left;
+    color:rgb(14, 2, 78);
+}
+.feature{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.featureOne{
+    width:28%;
+    float: left;
+    text-align:center;
+    padding: 50px 20px;
+    background: #FEEBED;
+}
+.featureOne h3{
+    text-align:left ;
+    color: #082052;
+}
+.featureOne p{
+    text-align:left ;
+    color: #082052;
+}
+.featureOne img{
+   width: 99%;
+}
+.featureTwo{
+    width:28%;
+    float: left;
+    margin-left: 5% ;
+    padding:50px 20px ;
+    background-color: #EAF9F4;
+}
+.featureTwo h3{
+    text-align:left ;
+    color: #082052;
+}
+.featureTwo img{
+    width: 97%;
+}
+.featureTwo p{
+    text-align:left ;
+    color: #082052;
+}
+.featureThree{
+    width:28%;
+    float: right;
+    padding: 50px 20px;
+    background: #FFF8E8;
+}
+.featureThree p{
+    text-align:left ;
+    color: #082052;
+}
+.featureThree h3{
+    text-align:left ;
+    color: #082052;
+}
+.featureThree img{
+    width: 94%;
+}
+footer{
+   background-color: #008AFF;
+   text-align: center;
+   padding: 24px 0;
+}
+footer p{
+   color: rgb(206, 206, 206);
+   display: inline;
+}
+footer h5{
+ color: #fff;
+ font-size: 20px;
+ letter-spacing:3px ;
+ display: inline;
+ margin:0 15px ;
+
+}
